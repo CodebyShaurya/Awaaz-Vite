@@ -23,10 +23,10 @@ export default function Home() {
   return (
     <div>
         <Nav/>
-        <div className='grid grid-cols-2 px-6 text-center mb-12 ' >
-            <div className='px-24'>
-                <div className='text-5xl font-bold m-4 font-mono'>
-                    Speak.<span className='text-[#2D8CFF] mb-4'>Learn</span>.Thrive<br/>
+        <div className='grid xl:grid-cols-2 px-6 text-center mb-12 ' >
+            <div className='md:px-24'>
+                <div className='text-5xl font-bold md:m-4 font-mono'>
+                    Speak. <span className='text-[#2D8CFF]'>Learn</span> .Thrive<br/>
                     <div className='mt-4'>
                     Bridging the gap with every word
                     </div>
@@ -40,10 +40,10 @@ export default function Home() {
 
                 <div className='grid grid-cols-2'>
                     <div className='flex justify-center'>
-                    <button className='border rounded-md p-2 bg-lime-500 text-white hover:bg-white hover:text-black w-40 h-12'>Get Started</button>
+                    <button className='border rounded-md p-2 bg-lime-500 text-white hover:bg-white hover:text-black sm:w-40 sm:h-12'>Get Started</button>
                     </div>
                     <div className='flex justify-center'>
-                    <button className='border rounded-md p-2 border-black hover:bg-black hover:text-white w-40 h-12'>Browse Features</button>
+                    <button className='border rounded-md p-2 border-black hover:bg-black hover:text-white sm:w-40 sm:h-12'>Browse Features</button>
                     </div>
 
                 </div>
@@ -51,7 +51,7 @@ export default function Home() {
 
             </div>
 
-            <div className='flex justify-center'>
+            <div className='flex md:justify-center md:w-full w-dvw'>
                 <img src={Mic}/>
             </div>
 
@@ -146,7 +146,7 @@ export default function Home() {
             </div>
 
             <div>
-                <div className='grid grid-cols-2 h-min'>
+                <div className='grid lg:grid-cols-2 h-[700px] lg:h-[500px]'>
                     <div className='md:px-24 h-min'>
                         <div className='text-3xl font-bold m-10'>
                             Real-Time Speech Detection
@@ -160,15 +160,15 @@ export default function Home() {
                         </div>
 
                     </div>
-                    <div className='flex justify-center'>
-                        <img src={RealTIme} alt='' className='h-3/5 mx-4'/>
+                    <div className='flex justify-center h-3/5'>
+                        <img src={RealTIme} alt='' className=' mx-4 lg:my-0 mt-5 '/>
                     </div>
 
                 </div>
 
-                <div className='grid grid-cols-2'>
+                <div className='grid lg:grid-cols-2'>
                 <div className='flex justify-center'>
-                        <img src={Dimensional} alt='' className='mx-4'/>
+                        <img src={Dimensional} alt='' className='mx-4 h-4/5 lg:h-full'/>
                     </div>
                     <div className='md:px-24'>
                         <div className='text-3xl font-bold m-10'>
@@ -193,9 +193,9 @@ export default function Home() {
 
 
         <div>
-            <div className='bg-[#F3F3F3] my-32 mx-32 rounded-3xl'> 
-                <div className='grid grid-cols-2'>
-                    <div className='text-center m-28'>
+            <div className='bg-[#F3F3F3] my-32 mx-4 md:mx-32 rounded-3xl'> 
+                <div className='grid lg:grid-cols-2'>
+                    <div className='text-center m-4 sm:m-12 lg:m-28'>
                         <div className='text-3xl  font-mono'>
                             Let's Make things happen
                         </div>
@@ -206,7 +206,7 @@ export default function Home() {
                             Read Articles →
                         </button>
                     </div>
-                    <div className='flex justify-center p-4'>
+                    <div className='flex justify-center lg:p-4 order-1 '>
                         <img src={Illustration} alt=''/>
                     </div>
                 </div>
@@ -214,15 +214,15 @@ export default function Home() {
         </div>
 
         <div>
-            <div className='border-y-2 border-black font-medium text-4xl w-60 ml-20 my-16 text-center '>
+            <div className='border-y-2 border-black font-medium text-4xl w-60 sm:ml-20 my-16 text-center '>
                 Contact Us
             </div>
 
             <div>
-                <div className='grid grid-cols-2'>
+                <div className='grid lg:grid-cols-2'>
 
                     <div className='flex justify-center'>
-                        <img src={Contact} alt='' className='h-4/5'/>
+                        <img src={Contact} alt='' className='lg:h-4/5'/>
                     </div>
 
                     <div>
@@ -231,14 +231,14 @@ export default function Home() {
                                 Connect With Us
                             </div>
                             <div>
-                                <div className='flex flex-row justify-between '>
-                                        <input className=" px-4 py-3 outline-none w-full font-semibold m-3 font-mono rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
+                                <div className='lg:flex flex-row justify-between '>
+                                        <input className=" px-4 py-3 outline-none sm:w-64 font-semibold m-3 font-mono rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
                                                 name="text"
                                                 placeholder="First Name"
                                                 type="text"
                                                 />
                                         
-                                        <input className=" px-4 py-3 outline-none w-full m-3 font-semibold font-mono rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
+                                        <input className=" px-4 py-3 sm:w-64 outline-none m-3 font-semibold font-mono rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
                                                 name="text"
                                                 placeholder="Last Name"
                                                 type="text"
@@ -280,10 +280,10 @@ export default function Home() {
         <div className="container px-4 mx-auto">
             <div className="pt-24 pb-11 mx-auto max-w-4xl">
             <a
-                className="block md:mx-auto mb-5 max-w-max"
+                className="block md:mx-auto mb-5 max-w-max text-center"
                 href="#"
             >
-               <div className='font-bold text-5xl ml-24'>
+               <div className='font-bold text-5xl  text-left'>
                     Awaaz
                 </div>
             </a>
