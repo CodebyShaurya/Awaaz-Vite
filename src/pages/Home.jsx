@@ -62,7 +62,7 @@ export default function Home() {
                 Features
             </div>
 
-            <div className='grid md:grid-cols-3 gap-20 p-12'>
+            <div className='lg:grid lg:grid-cols-3 gap-20 p-12'>
                 <div className='bg-[#2D8CFF] rounded-3xl p-6 shadow-2xl lg:w-80 min-w-60 max-w-96'>
                     <img src={Engaging} alt='' />
                     <div className='font-semibold text-white mb-2'>
