@@ -26,7 +26,7 @@ export default function Home() {
         <div className='grid xl:grid-cols-2 px-6 text-center mb-12 ' >
             <div className='md:px-24'>
                 <div className='text-5xl font-bold md:m-4 font-mono'>
-                    Speak. <span className='text-[#2D8CFF]'>Learn</span> .Thrive<br/>
+                    Speak.<span className='text-[#2D8CFF]'>Learn</span>.Thrive<br/>
                     <div className='mt-4'>
                     Bridging the gap with every word
                     </div>
@@ -51,7 +51,7 @@ export default function Home() {
 
             </div>
 
-            <div className='flex md:justify-center md:w-full w-dvw'>
+            <div className='flex md:justify-center md:w-full '>
                 <img src={Mic}/>
             </div>
 
@@ -62,10 +62,10 @@ export default function Home() {
                 Features
             </div>
 
-            <div className='grid lg:grid-cols-3 gap-20 p-12'>
-                <div className='bg-[#2D8CFF] rounded-3xl p-6 shadow-2xl lg:w-80 min-w-60 max-w-96'>
-                    <img src={Engaging} alt='' />
-                    <div className='font-semibold text-white mb-2'>
+            <div className='grid lg:grid-cols-3 gap-10 p-12'>
+                <div className='bg-[#2D8CFF] rounded-3xl p-6 shadow-2xl h-64 w-96 '>
+                    <img src={Engaging} alt='' className='h-24' />
+                    <div className='font-semibold text-2xl text-white mb-2'>
                         Engaging Interfacing
                     </div>
                     <div className='text-white font-thin'>
@@ -74,9 +74,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className='bg-white rounded-3xl p-6 shadow-2xl lg:w-80  min-w-60 max-w-96'>
-                    <img src={Progress} alt='' className='mb-4'/>
-                    <div className='font-semibold mb-2'>
+                <div className='bg-white rounded-3xl p-6 shadow-2xl h-64 w-96'>
+                    <img src={Progress} alt='' className='mb-4 h-20'/>
+                    <div className='font-semibold mb-2 text-2xl'>
                         Progress Tracking
                     </div>
                     <div className=' font-thin'>
@@ -85,9 +85,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className='bg-[#2D8CFF] rounded-3xl p-6 shadow-2xl lg:w-80  min-w-60 max-w-96'>
-                    <img src={Phonic} alt='' />
-                    <div className='font-semibold text-white mb-2'>
+                <div className='bg-[#2D8CFF] rounded-3xl p-6 shadow-2xl h-64 w-96'>
+                    <img src={Phonic} alt='' className='h-24'/>
+                    <div className='font-semibold text-white mb-2 text-2xl'>
                         Holistic Phonics Training
                     </div>
                     <div className='text-white font-thin'>
@@ -97,9 +97,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className='bg-white rounded-3xl p-6 shadow-2xl lg:w-80 min-w-60 max-w-96'>
-                    <img src={Motor} alt='' className='mb-4'/>
-                    <div className='font-semibold mb-2'>
+                <div className='bg-white rounded-3xl p-6 shadow-2xl h-64 w-96'>
+                    <img src={Motor} alt='' className='mb-4 h-20'/>
+                    <div className='font-semibold mb-2 text-2xl'>
                         Motor-Based Intervention
                     </div>
                     <div className=' font-thin'>
@@ -109,9 +109,9 @@ export default function Home() {
                 </div>
 
 
-                <div className='bg-[#2D8CFF] rounded-3xl p-6 shadow-2xl lg:w-80 min-w-60 max-w-96'>
-                    <img src={Visual} alt='' />
-                    <div className='font-semibold text-white mb-2'>
+                <div className='bg-[#2D8CFF] rounded-3xl p-6 shadow-2xl h-64 w-96'>
+                    <img src={Visual} alt='' className='h-24' />
+                    <div className='font-semibold text-white mb-2 text-2xl'>
                             Visual, Auditory Stimulation
                     </div>
                     <div className='text-white font-thin'>
@@ -121,9 +121,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className='bg-white rounded-lg p-6 shadow-2xl lg:w-80 min-w-60 max-w-96'>
-                    <img src={Learning} alt='' className='mb-4'/>
-                    <div className='font-semibold mb-2'>
+                <div className='bg-white rounded-lg p-6 shadow-2xl w-96 h-64'>
+                    <img src={Learning} alt='' className='mb-4 h-20'/>
+                    <div className='font-semibold mb-2 text-2xl'>
                         Multimodal Learning
                     </div>
                     <div className=' font-thin'>
@@ -232,13 +232,13 @@ export default function Home() {
                             </div>
                             <div>
                                 <div className='lg:flex flex-row justify-between '>
-                                        <input className=" px-4 py-3 outline-none sm:w-64 font-semibold m-3 font-mono rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
+                                        <input className=" px-4 py-3 outline-none w-full font-semibold m-3 font-mono rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
                                                 name="text"
                                                 placeholder="First Name"
                                                 type="text"
                                                 />
                                         
-                                        <input className=" px-4 py-3 sm:w-64 outline-none m-3 font-semibold font-mono rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
+                                        <input className=" px-4 py-3 w-full outline-none m-3 font-semibold font-mono rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]"
                                                 name="text"
                                                 placeholder="Last Name"
                                                 type="text"
@@ -264,7 +264,12 @@ export default function Home() {
                                                 placeholder="Message"
                                                 type="text"
                                                 />
+                                <button className='bg-[#89D85D] px-4 py-3 outline-none m-3  font-semibold font-mono rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040'>
+                                    Send the message
+
+                                </button>
                                 </div>
+                                
                                     
                             </div>
 
