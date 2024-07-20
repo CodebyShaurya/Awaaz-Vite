@@ -28,7 +28,7 @@ function Example() {
   return (
     <div>
       <div className="flex justify-between items-center p-4 mb-12">
-        <div className="font-bold text-3xl ml-4">
+        <div className="font-spacegroteskbold text-3xl ml-4">
           Awaaz
         </div>
         <div className="hidden lg:flex space-x-8 mr-24">
@@ -36,12 +36,12 @@ function Example() {
             <a
               key={item.name}
               href={item.href}
-              className="mt-2 cursor-pointer"
+              className="mt-2 font-spacegroteskregular cursor-pointer"
             >
               {item.name}
             </a>
           ))}
-          <button className='border rounded-md p-2 border-black hover:bg-black hover:text-white'>
+          <button className='border font-spacegroteskregular rounded-md p-2 border-black hover:bg-black hover:text-white'>
                   Sign Up
           </button>
         </div>
@@ -58,7 +58,7 @@ function Example() {
         <div className="lg:hidden fixed inset-0 bg-gray-800 bg-opacity-75 z-10">
           <div ref={sidebarRef} className="fixed inset-y-0 left-0 w-64 bg-white shadow-lg z-20 p-4">
             <div className="flex justify-between items-center mb-4">
-              <div className="font-bold text-2xl">
+              <div className="font-spacegroteskbold text-2xl">
                 Awaaz
               </div>
               <button
@@ -73,13 +73,13 @@ function Example() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block px-4 py-2 text-lg font-medium text-gray-700 hover:bg-gray-100 rounded-md"
+                  className="block px-4 py-2 text-lg font-spacegroteskregular text-gray-700 hover:bg-gray-100 rounded-md"
                 >
                   {item.name}
                 </a>
                 
               ))}
-              <button className='border rounded-md p-2 border-black hover:bg-black hover:text-white'>
+              <button className='border rounded-md p-2 font-spacegroteskregular border-black hover:bg-black hover:text-white'>
                   Sign Up
               </button>
               

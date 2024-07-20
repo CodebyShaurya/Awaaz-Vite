@@ -5,9 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+      },
+      colors: {
+      },
+      fontFamily:{
+        'spacegroteskbold': "Space Grotesk Bold",
+        'spacegrotesklight': "Space Grotesk Light",
+        'spacegroteskmedium': "Space Grotesk Medium",
+        'spacegroteskregular': "Space Grotesk Regular",
+        'spacegrotesksemibold': "Space Grotesk Semibold",
+      }
+    },
   },
-  plugins: [
-    
-  ],
+  plugins: [],
 }
